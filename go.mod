@@ -40,7 +40,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/tektoncd/chains v0.15.0
 	github.com/tektoncd/hub v1.11.3
-	github.com/tektoncd/pipeline v0.44.0
+	github.com/tektoncd/pipeline v0.45.0
 	github.com/tektoncd/plumbing v0.0.0-20221102182345-5dbcfda657d7
 	github.com/tektoncd/triggers v0.22.2
 	github.com/theupdateframework/go-tuf v0.5.2
@@ -320,12 +320,12 @@ require (
 	go.etcd.io/etcd/v3 v3.6.0-alpha.0 // indirect
 	go.mongodb.org/mongo-driver v1.11.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.28.0 // indirect
-	go.opentelemetry.io/otel v1.11.1 // indirect
+	go.opentelemetry.io/otel v1.13.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.11.1 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.11.1 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.11.1 // indirect
-	go.opentelemetry.io/otel/sdk v1.11.1 // indirect
-	go.opentelemetry.io/otel/trace v1.11.1 // indirect
+	go.opentelemetry.io/otel/sdk v1.13.0 // indirect
+	go.opentelemetry.io/otel/trace v1.13.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
