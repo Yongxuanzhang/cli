@@ -93,7 +93,7 @@ func SendCloudEventWithRetries(ctx context.Context, object runtime.Object) error
 	if ceClient == nil {
 		return errors.New("no cloud events client found in the context")
 	}
-	event, err := eventForObjectWithCondition(ctx, o)
+	event, err := EventForObjectWithCondition(ctx, o)
 	if err != nil {
 		return err
 	}
@@ -114,7 +114,7 @@ func SendCloudEventWithRetries(ctx context.Context, object runtime.Object) error
 		if isCustomRun {
 			cloudEventSent, err := cache.ContainsOrAddCloudEvent(cacheClient, event)
 			if err != nil {
-				logger.Errorf("error while checking cache: %s", err)
+				logger.Errorf("Error while checking cache: %s", err)
 			}
 			if cloudEventSent {
 				logger.Infof("cloudevent %v already sent", event)
